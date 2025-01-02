@@ -97,18 +97,6 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <a
-                  href="https://elviswangari.hashnode.dev/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: theme.text }}
-                  onMouseEnter={onMouseEnter}
-                  onMouseOut={onMouseOut}
-                >
-                  Blogs
-                </a>
-              </li>
-              <li>
                 <NavLink
                   to="/contact"
                   tag={Link}

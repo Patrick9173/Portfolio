@@ -7,65 +7,62 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Elvis Wangari's Portfolio",
+  title: "Patrick Mwangi's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Elvis Wangari Portfolio",
+    title: "Patrick Mwangi's Portfolio",
     type: "website",
-    url: "http://github.com.com/elviswangari",
+    url: "https://Patrickmwangi.netlify.app",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Elvis Wangari",
-  logo_name: "Elvis Wangari",
-  nickname: "elvis_wangari",
+  title: "Patrick Mwangi",
+  logo_name: "Patrick Mwangi",
+  nickname: "patrick_mwangi",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink: "https://github.com/elviswangari",
+  resumeLink: "https://Patrickmwangi.netlify.app",
   portfolio_repository: "/contact",
-  githubProfile: "https://github.com/elviswangari",
+  githubProfile: "https://github.com/",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // github: "https://github.com/",
+  // linkedin: "https://www.linkedin.com/in/patrick-maina-130510248/",
+  // gmail: "mainapatrick9173@gmail.com",
+  // twitter: "https://x.com/DevPatoh",
 
   {
     name: "Github",
-    link: "https://github.com/elviswangari",
+    link: "",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/elvis-wangari/",
+    link: "https://www.linkedin.com/in/patrick-maina-130510248/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UCenI25jNU3WcN9GU0xquteg",
+    link: "http://www.youtube.com/@patrickmaina7640",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:elviswangare@gmail.com",
+    link: "mailto:patrickmaina@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/elvis_wangari",
+    link: "https://twitter.com/patrickmaina",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
@@ -77,21 +74,15 @@ const socialMediaLinks = [
   // },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/elvis_wangari/",
+    link: "https://www.instagram.com/patoh_.gram",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
   {
     name: "Whatsapp",
-    link: "https://wa.me/254710374236",
+    link: "https://wa.link/vyp39d",
     fontAwesomeIcon: "fa-whatsapp", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#25D366", // Reference https://simpleicons.org/?q=instagram
-  },
-  {
-    name: "Hashnode",
-    link: "https://hashnode.com/@elviswangari",
-    fontAwesomeIcon: "fa-hashnode", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#2962FF", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -162,20 +153,20 @@ const skills = {
           style: {
             color: "#2C8EBB",
           },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          // },
+          // {
+          //   skillName: "Gatsby",
+          //   fontAwesomeClassname: "simple-icons:gatsby",
+          //   style: {
+          //     color: "#663399",
+          //   },
+          // },
+          // {
+          //   skillName: "Flutter",
+          //   fontAwesomeClassname: "simple-icons:flutter",
+          //   style: {
+          //     color: "#02569B",
+          //   },
         },
       ],
     },
@@ -343,23 +334,14 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/elviswangari/",
     },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/elviswangare",
-    },
+
     {
       siteName: "Codechef",
       iconifyClassname: "simple-icons:codechef",
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/elviswangari",
     },
     {
       siteName: "Codeforces",
@@ -367,7 +349,6 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
     },
     {
       siteName: "Hackerearth",
@@ -375,7 +356,6 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@elviswangare",
     },
     {
       siteName: "Kaggle",
@@ -383,7 +363,6 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/elviswangari",
     },
   ],
 };
@@ -391,78 +370,57 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Chuka University",
-      subtitle: "Diploma in Computer Science",
-      logo_path: "chuka_uni_logo.png",
-      alt_name: " Chuka University",
-      duration: "2023 - 2024",
+      title: "Kirinyaga University",
+      subtitle: "Bachelor of Science in Information Technology",
+      logo_path:
+        "https://www.kirinyaga.ac.ke/images/kirinyaga-university-logo.png",
+      alt_name: "Kirinyaga University",
+      duration: "2020-2024",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
-      website_link: "https://chuka.ac.ke",
-    },
-    {
-      title: "Chuka University",
-      subtitle: "Certificate in Computer Science",
-      logo_path: "chuka_uni_logo.png",
-      alt_name: "Chuka Univeristy",
-      duration: "2021 - 2022",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://chuka.ac.ke",
+      website_link: "https://www.kyu.ac.ke",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Software Engineering",
-      subtitle: "- alx",
-      logo_path: "alx_logo.png",
-      certificate_link: "https://intranet.alxswe.com/certificates/BXzMC2EnN9",
-      alt_name: "Alx Africa",
-      color_code: "#13b2dc",
-    },
-    {
-      title: "Software and Mobile development",
-      subtitle: "- PLP",
-      logo_path: "plp.png",
-      certificate_link:
-        "https://plpacademy.powerlearnproject.org/verify-cert/412fd3fb-5216-49f6-8176-734d9f4ebc2d",
-      alt_name: "Power Learn Project",
-      color_code: "#01a5aa",
-    },
-    {
-      title: "Data Analysis",
-      subtitle: "- freecodecamp",
-      logo_path: "FreeCodeCamp_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Freecodecamp",
-      color_code: "#0a0a22",
-    },
-    {
-      title: "Back End Development and APIs",
-      subtitle: "- freecodecamp",
-      logo_path: "FreeCodeCamp_logo.png",
-      certificate_link:
-        "https://www.freecodecamp.org/certification/elvis_wangari/back-end-development-and-apis",
-      alt_name: "Freecodecamp",
-      color_code: "#0a0a22",
-    },
+    // {
+    //   title: "Software Engineering",
+    //   subtitle: "- alx",
+    //   logo_path: "alx_logo.png",
+    //   alt_name: "Alx Africa",
+    //   color_code: "#13b2dc",
+    // },
+    // {
+    //   title: "Software and Mobile development",
+    //   subtitle: "- PLP",
+    //   logo_path: "plp.png",
+    //       alt_name: "Power Learn Project",
+    //   color_code: "#01a5aa",
+    // },
+    // {
+    //   title: "Data Analysis",
+    //   subtitle: "- freecodecamp",
+    //   logo_path: "FreeCodeCamp_logo.png",
+    //       alt_name: "Freecodecamp",
+    //   color_code: "#0a0a22",
+    // },
+    // {
+    //   title: "Back End Development and APIs",
+    //   subtitle: "- freecodecamp",
+    //   logo_path: "FreeCodeCamp_logo.png",
+    //        alt_name: "Freecodecamp",
+    //   color_code: "#0a0a22",
+    // },
     // {
     //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
+    //   subtitle: "- Safra Data",
+    //   logo_path: "safradata.png",
+    //        alt_name: "SAFRA",
     //   color_code: "#1F70C199",
     // },
     // {
@@ -555,10 +513,9 @@ const experience = {
         {
           title: "Software Engineer",
           company: "Freelance",
-          company_url: "https://elviswangari.tech",
           logo_path: "muffito_logo.png",
           duration: "Sep 2021 - present",
-          location: "Laikipa, Kenya",
+          location: "Nairobi, Kenya",
           description:
             "Versatile freelance software engineer adept at developing robust APIs and software solutions. Proficient in a variety of programming languages and frameworks, with a keen focus on delivering efficient and scalable code. Committed to meeting client needs and exceeding expectations through innovative problem-solving and rigorous testing methodologies.",
           color: "#9b1578",
@@ -566,7 +523,6 @@ const experience = {
         {
           title: "Web Developer",
           company: "Freelance",
-          company_url: "https://elviswangari.com/",
           logo_path: "legato_logo.png",
           duration: "Apr 2018 - Aug 2021",
           location: "Laikipia, Kenya",
@@ -759,22 +715,22 @@ const contactPageData = {
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://elviswangari.hashnode.dev/",
-    avatar_image_path: "blogs_image.svg",
+    // title: "Blogs",
+    // subtitle:
+    //   "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    // link: "https://Patrickmwangi.netlify.app",
+    // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Nanyuki, Laikipia ,KE",
-    locality: "Nanyuki",
+    subtitle: "Nairobi,KE",
+    locality: "Nairobi",
     country: "KE",
-    region: "Laikipia",
-    postalCode: "10400",
-    streetAddress: "ceder mall street",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    region: "Central",
+    postalCode: "00100",
+    streetAddress:
+      "Capital Mall, Eastern Bypass Road, Utawala, Nairobi, Kenya.",
+    location_map_link: "Capital Mall Utawala on Google Maps",
   },
   phoneSection: {
     title: "",
