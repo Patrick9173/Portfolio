@@ -372,8 +372,7 @@ const degrees = {
     {
       title: "Kirinyaga University",
       subtitle: "Bachelor of Science in Information Technology",
-      logo_path:
-        "https://www.kirinyaga.ac.ke/images/kirinyaga-university-logo.png",
+      logo_path: "kyu_logo2.png",
       alt_name: "Kirinyaga University",
       duration: "2020-2024",
       descriptions: [
@@ -710,7 +709,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile.png",
+    profile_image_path: "IMG_20240921_112917.jpg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
